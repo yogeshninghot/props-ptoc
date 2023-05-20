@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Parent from './component/Parent';
+import Refinput from './component/Refinput';
+import UseRefSum from './component/UseRefSum';
+import Childtopar from "./component/Childtopar"
+import  ContextApi  from './component/ContextApi';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>Hello Yogesh</h1>
+     {/* <Parent/> */}
+     {/* <Refinput/> */}
+     {/* <UseRefSum/> */}
+     {/* <Childtopar/> */}
+     <ContextApi/>
     </div>
   );
 }
